@@ -11,15 +11,18 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
+    font-family: sans-serif;
 }
 
 #canvas-frame {
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
     background-color: #120e24;
+    border: 2px solid #231c42;
 }
 
 canvas {
     display: block;
 }
+
 
