@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0b0914;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#canvas-frame {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    background-color: #120e24;
+}
+
+canvas {
+    display: block;
+}
+
